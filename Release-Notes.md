@@ -9,6 +9,14 @@
 
 ## Version 8.2
 
+### Version 8.2.5 (05.04.2017)
+- `CRITICAL` Absturz bei leerem Dateipfad in D Bild lesen behoben
+- `FIXED` Fehlerhafte Ergebnis-Generierung der einzelnen QMT-Messwerte bei Mehrslot-Betrieb
+- `FIXED` OpenMP-Einstellung wird in B Bildaufnahme ignoriert, wenn die IDS-Kameras diese nicht unterstützen
+
+### Version 8.2.4 (18.01.2017)
+- `FIXED` Frontend-Speicherbedarf auf 512MB begrenzt
+
 ### Version 8.2.3 (21.12.2016)
 - `FIXED` Fehler bei Sortierung der Sollwerten behoben
 
@@ -54,6 +62,12 @@
 
 
 ## Version 8.1
+
+### Version 8.1.12 (05.04.2017)
+- `FIXED` Fehlerhafte Ergebnis-Generierung der einzelnen QMT-Messwerte bei Mehrslot-Betrieb
+
+### Version 8.1.11 (25.01.2017)
+- `FIXED` Frontend-Speicherbedarf auf 512MB begrenzt
 
 ### Version 8.1.10 (08.03.2016)
 - `CRITICAL` Behebung eines Fehlers der in manchen Situationen zu einem Absturz bei der Benutzung der Fill-Up-Operation in F Morphologie führen konnte.
