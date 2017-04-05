@@ -5,7 +5,7 @@
   * [Version 7.1.x](#version-71)
   * [Version 6.2.x](#version-62)
 
-___
+
 
 ## Version 8.2
 
@@ -51,7 +51,7 @@ ___
 - `FIXED` Fixed: Absturzursache in F DMC Lesen
 - `FIXED` Fixed: FE Bildausgabe lieferte manchmal ein falsch kodiertes Gesamtergebnis zurückgeliefert
 
-___
+
 
 ## Version 8.1
 
@@ -143,7 +143,7 @@ Dadurch wird die Touch-Unterstützung verbessert, da manche Touch-Monitore keine
 - `NEW` Lizenz-Manager im Frontend akzeptiert nun die Eingabe von Kleinbuchstaben und fügt Bindestriche automatisch hinzu
 - `NEW` Neues Prüfelement FE Slot zur Überprüfung und zum Setzen des aktuell angewählten Frontend-Slots
 
-___
+
 
 ## Version 7.1
 
@@ -223,7 +223,7 @@ Der Fehler äußerte sich dadurch, dass die Kameras im Software-Trigger-Modus st
 
 
 ### Version 7.1 (01.09.2014)
->### Bug-Fixes
+#### Bug-Fixes
 - `CRITICAL` Neue IDS-Treiber-Version integriert, welche Probleme mit nahezu allen GigE-Kameras behebt, die bislang zu Aufhängern der Kamera geführt haben
 - `FIXED` Der gesetzte Timeout bei I TCP Kommunikation wirkt sich jetzt tatsächlich auf die Verbindung und auf das Empfangen von Texten aus
 - `FIXED` FE Bildausgabe funktioniert jetzt auch ohne dass ein Typ angewählt ist
@@ -231,23 +231,22 @@ Der Fehler äußerte sich dadurch, dass die Kameras im Software-Trigger-Modus st
 - `FIXED` TCP Kommunikation trennt Verbindung nicht mehr, wenn leerer Text gesendet wird
 - `FIXED` Behebung eines Fehlers, der dazu führte, dass Benutzer-Rechte nicht korrekt gesetzt werden konnten
 
->### Allgemeine Neuerungen
+#### Allgemeine Neuerungen
 - `NEW` Software- und Hardware-Lizenzierung im Wechsel möglich
 - `NEW` SIMAVIS P wurde für Mehrbenutzer optimiert:
 - Alle veränderlichen Daten werden jetzt standardmäßig im Projektverzeichnis abgelegt (z.B. Log-Files)
 - Das Projektverzeichnis ist standardmäßig im Benutzerordner abgelegt, d.h. jeder Benutzer kann seine eigene Projektverwaltung verwenden
 - AGLink-Konfigurations-Dateien (für S7-Kommunikation) werden jetzt standardmäßig im **Miscellaneous**-Verzeichnis des aktuellen Projekts gesucht. Dieses Verzeichnis wird automatisch erstellt und dient der Ablage sonstiger projektrelevanter Dateien. Weitere Infos siehe I S7 Verbindung.
 
->### Neue Frontend-Features
+#### Neue Frontend-Features
 - `NEW` Kontrollbereich im Frontend optimiert. Buttons werden jetzt nicht mehr deaktiviert, sondern ganz ausgeblendet, wenn sie nicht "drückbar" sind
 - `NEW` Neuen Button **Herunterfahren** in der Titelleiste
 - `NEW` Min- und Max-Markierung in QMT wird jetzt auch während des Betriebs angezeigt
 - `NEW` Speichern-Button im Frontend wird beim Bild-Abspeichern über das Backend als visuelle Rückmeldung gedrückt
 - `NEW` Touch-Tastatur wird beim Beenden vom Frontend automatisch geschlossen
-- `NEW` Die Buttons in der Titelleiste können per Rechteverwaltung deaktiviert werden. Hier ein Beispiel wo nur Herunterfahren erlaubt ist, daneben die Titelleiste mit allen Berechtigungen:
->>![Nur Herunterfahren berechtigt](img/title_bar_only_shutdown.png) ![Alle Berechtigungen](img/title_bar_all_rights.png)
+- `NEW` Die Buttons in der Titelleiste können per Rechteverwaltung deaktiviert werden. Hier ein Beispiel wo nur Herunterfahren erlaubt ist, daneben die Titelleiste mit allen Berechtigungen
 
->### Neue Backend-Features
+#### Neue Backend-Features
 - `NEW` Optimierte Referenzierung im Backend: Einmaliger Klick auf gesetzten Referenz-Haken entfernt diesen
 - `NEW` Neues Prüfelement H Merkmale, welches das PE H Statistikmerkmale ersetzt
 - `NEW` Neues Prüfelement I Digital/Analog I/O für digitale/analoge I/O-Baugruppe
@@ -255,7 +254,7 @@ Der Fehler äußerte sich dadurch, dass die Kameras im Software-Trigger-Modus st
 - `NEW` Einfügen eines Prüfelements aus dem Vorrat während sich das Backend im Run befindet ist jetzt möglich (nach Bestätigung einer Abfrage)
 - `NEW` Help-Dateien aktualisiert
 
-___
+
 
 ## Version 6.8
 
@@ -360,7 +359,7 @@ Der Fehler äußerte sich dadurch, dass die Kameras im Software-Trigger-Modus st
 - `NEW` Frontend merkt sich den Bildschirm, auf dem es zuletzt geöffnet wurde, und startet direkt auf diesem.
 - `FIXED` F Mustersuche stürzte bei nicht validen Eingängen ab.
 
-___
+
 
 ## Version 6.2
 
