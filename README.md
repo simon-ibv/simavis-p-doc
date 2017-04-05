@@ -1,2 +1,3 @@
-# simavis-p-doc
-Documentation and Release Notes for SIMAVIS P
+# SIMAVIS P Dokumentation
+
+  * [Release Notes](/Release-Notes.md)
