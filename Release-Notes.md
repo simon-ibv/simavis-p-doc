@@ -14,6 +14,7 @@
 - `FIXED` Farbbilder wurden nicht korrekt eingelesen (betroffen waren `D Bild lesen` und `B Bildaufnahme VISION`)
 - `FIXED` Speichern-Button liefert nun auch bei Touch-Bildschirmen eine korrekte visuelle Rückmeldung
 - `FIXED` F DMC Lesen++ funktioniert jetzt auch mit Halcon 12
+- `FIXED` Speicherkumulierung in B Bildaufnahme VISION behoben (in manchen Fällen)
 
 ### Version 8.2.5 (05.04.2017)
 - `CRITICAL` Absturz bei leerem Dateipfad in D Bild lesen behoben
