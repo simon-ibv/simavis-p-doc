@@ -9,6 +9,11 @@
 
 ## Version 8.2
 
+### Version 8.2.6 (02.05.2017)
+- `CRITICAL` Absturz bei FE Messwerte (in seltenen Konstellationen)
+- `FIXED` Farbbilder wurden nicht korrekt eingelesen (betroffen waren `D Bild lesen` und `B Bildaufnahme VISION`)
+- `FIXED` Speichern-Button liefert nun auch bei Touch-Bildschirmen eine korrekte visuelle Rückmeldung
+
 ### Version 8.2.5 (05.04.2017)
 - `CRITICAL` Absturz bei leerem Dateipfad in D Bild lesen behoben
 - `FIXED` Fehlerhafte Ergebnis-Generierung der einzelnen QMT-Messwerte bei Mehrslot-Betrieb
